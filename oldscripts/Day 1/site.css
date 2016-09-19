@@ -1,0 +1,38 @@
+ body {
+        background-color: limegreen;
+        margin: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .yellowMed { 
+        color: yellow;
+        font-size: 14pt;
+    }
+
+    .yellowLg {
+        color: yellow;
+        font-size: 20pt;
+    }
+
+    .almostBaconBrown {
+        color: #65A031;
+    }
+
+    .corporateBlue {
+        background-color: blue;
+    } 
+
+     a:link {
+            color: black;
+            text-decoration: none;
+        } 
+        
+        a:visited {
+            color: black;
+        }
+        
+        a:hover {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }

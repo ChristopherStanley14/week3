@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" type="text/css" type="text/css" href="site.css" /> 
+</head>
+
+<body>
+
+    <h1>My First Form</h1>
+    <form action="mailto:christopher.stanley@interapthq.com" method="POST" enctype="text/plain" style="width:30%">
+        <fieldset>
+            <!-- Begin Basic Info -->
+            <h1>Basic Info</h1>
+            <label>First Name:
+                <input type="text" name="firstName" id="firstName" /></label><br/>
+            <label>Last Name:
+                <input type="text" name="lastName" id="lastName" /></label><br/>
+            <label>Email Address:
+                <input type="text" name="email" id="email" /></label><br/>
+            <label>Get marketing junk?
+                <input type="checkbox" name="optin" checked id="optin"/></label><br/>
+            <input type="submit" value="Sign Me Up!" />
+            <!-- End Basic Info -->
+
+            <hr/>
+
+            <!-- Begin Additional Profile Details -->
+            <h1>Additional Profile Info</h1>
+            <p>Choose Your Favorite Mvoie:</p>
+            <select name="favMovie" id="favMovie">
+                <option value="1">Star Wars</option>
+                <option value="2">The Shining</option>
+                <option value="3">Planet of the Apes</option>
+            </select>
+            <p>Additional Comments:</p>
+            <textarea id="comments" name="comments" style="height:100px; width:300px"></textarea>
+            <!-- End Additional Profile Details -->
+        </fieldset>
+    </form>
+
+</body>
+</html>
+

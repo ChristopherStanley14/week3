@@ -1,0 +1,26 @@
+/* Main Styles     nothing - elements*/
+p {
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+h1, h2, h3 {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 25pt;
+}
+
+/* Custom Styles    . - custom classes */
+
+
+/* Specific Styles     # - identifiers*/
+#p1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#p2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* > - child of */

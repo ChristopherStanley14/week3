@@ -1,0 +1,104 @@
+.wrapper{
+    margin: 5px;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+nav {
+    margin: 5px;
+    }
+
+.li {
+    display: inline;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+nav {
+    display: block;
+    background-color: black;
+}
+
+
+
+.gfont {
+font-family: 'Playfair Display', serif;
+text-align: center;
+}
+
+.leftList {
+    list-style-position: inside;
+    text-align: center;
+
+        
+    }
+
+#div1 {
+    width: 100%;
+     overflow: hidden;
+}
+
+#div2 {
+    width: 600px; 
+    height:112%; 
+    float: left; 
+    border: 7px dotted white;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/81/3f/57/813f57e3c0f8768725525371105b1ddc.jpg);
+}
+
+#div3 {
+     margin-left:200px; 
+     margin-right:100px;
+}
+
+#div4 {
+    margin-left: 620px; 
+    height:112%; 
+    border: 7px dotted white;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/81/3f/57/813f57e3c0f8768725525371105b1ddc.jpg);
+    color: white;
+}
+
+th, td, h1, li {
+    color: white;
+}
+
+a, a:visited {
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: blue;
+}
+
+
+
