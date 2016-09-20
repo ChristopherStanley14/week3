@@ -14,6 +14,8 @@ function setupGame() {
     // Hide and show the appropriate divs.
     $("#intro").show();
     $("#game").hide();
+
+    
 }
 
 // Handle the guess
@@ -26,6 +28,7 @@ function handleGuess() {
     else {
         // Tell them the answer is wrong.
         $("#message").text("Nope, try again!");
+        $("#tbxGuess").val("");
     }
 }
 
@@ -33,7 +36,12 @@ function handleGuess() {
 function playGame() {
     $("#intro").hide();
     $("#game").show();
+
+     // Put the focus back on the textbox.
+    $("#tbxGuess").focus();
 }
+
+
 
 // When the page loads, setup the game.
 $(function() {
