@@ -1,17 +1,7 @@
 $(document).ready(function() {
-    $("#paragraph").hover(function() {
-        $("#paragraph").fadeOut("slow", "linear");
-    });
+    $("#paragraph").attr("style", "color:blue;");
+
+    $("h3").attr("style", "font-size: 50pt; color: red;");
+
+    $("#listOfItems li").first().attr("style", "color: green;");
 });
-
-
-$(function() {
-    $("h3").hover(function() {
-         $("h3").fadeOut("slow", "linear");
-});
-});
-
-
-$("li:contains('1')").onClick(function(){
-        $(this).hide();
-    });
