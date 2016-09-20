@@ -3,5 +3,5 @@ $(function() {
 
     $("h3").attr("style", "font-size: 50pt; color: red;");
 
-    $("#listOfItems li").first().attr("style", "color: green;");
+    $("#listOfItems li").first().css("style", "color: green;");
 }); 
