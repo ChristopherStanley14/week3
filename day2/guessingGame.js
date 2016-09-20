@@ -14,6 +14,8 @@ function setupGame() {
     // Hide and show the appropriate divs.
     $("#intro").show();
     $("#game").hide();
+    $("#unicorn").hide();
+    $("#poo").hide();
 
     
 }
@@ -24,11 +26,15 @@ function handleGuess() {
     if (+guess == answer) {
         // Tell them the answer is right.
         $("#message").text("You're right!");
+        $("#btnGuess").hide();
+        $("#unicorn").fadeIn("slow", "linear");
+         $("#poo").hide();
     }
     else {
         // Tell them the answer is wrong.
         $("#message").text("Nope, try again!");
         $("#tbxGuess").val("");
+        $("#poo").fadeIn("slow", "linear");
     }
 }
 
@@ -51,3 +57,13 @@ $(function() {
     // Start the game.
     setupGame();
 });
+
+
+
+// Quit Game and Reset.
+$(function() {
+    $("#reset").click(function(){
+        location.reload();
+    });
+});
+
